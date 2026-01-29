@@ -1,7 +1,5 @@
 # Project
 
-This is just a template I use when making full stack web apps. It is React, Node, postgres, and Docker.
-
 \
 Install prettier vsc extension for formatting:
 
@@ -32,6 +30,13 @@ You must install the Docker desktop app
 
 ## local:
 
+To install dependencies
+
+```
+npm i
+```
+
+\
 Run node and postgres locally
 
 ```
