@@ -1,0 +1,12 @@
+#example.txt
+#/folder_directory/
+#*.log    ignores file type
+#!debug.log   if log is ignored this keeps debug 
+
+frontend/node_modules/
+backend/node_modules/
+/public/
+.DS_Store
+# .env 
+frontend/dist/
+backend/dist/
