@@ -6,6 +6,6 @@ type ExampleStoreType = {
 };
 
 export const useExampleStore = create<ExampleStoreType>((set) => ({
-  exampleNumber: 0,
+  exampleNumber: 2,
   setExampleNumber: (exampleNumber) => set({ exampleNumber }),
 }));
