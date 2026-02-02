@@ -14,7 +14,7 @@ Install Node.js
 To install dependencies
 
 ```
-npm i
+npm ci
 ```
 
 \
@@ -33,7 +33,7 @@ You must install the Docker desktop app
 To install dependencies
 
 ```
-npm i
+npm ci
 ```
 
 \
