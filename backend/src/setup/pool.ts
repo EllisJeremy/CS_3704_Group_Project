@@ -1,9 +1,10 @@
 import { Pool } from "pg";
+import { env } from "./env.js";
 
 export const pool = new Pool({
-  user: process.env.POSTGRES_USER,
-  password: process.env.POSTGRES_PASSWORD,
-  connectionString: process.env.DATABASE_URL,
-  port: Number(process.env.DB_PORT) || 5432,
-  database: process.env.POSTGRES_DB,
+  user: env.DATABASE_USER,
+  password: env.DATABASE_PASSWORD,
+  connectionString: env.DATABASE_URL,
+  port: env.DATABASE_PORT,
+  database: env.DATABASE_NAME,
 });

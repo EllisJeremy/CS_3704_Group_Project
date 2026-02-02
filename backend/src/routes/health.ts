@@ -1,8 +1,7 @@
-import express from "express";
-import { pool } from "../setup/pool";
-import { Request, Response } from "express";
+import { pool } from "../setup/pool.js";
+import { Request, Response, Router } from "express";
 
-const router = express.Router();
+const router = Router();
 
 router.get("/", (_req: Request, res: Response) => {
   res.send("backend is running.");
